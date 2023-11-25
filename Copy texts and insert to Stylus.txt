@@ -11,6 +11,12 @@
 }
 
 /*HomePage*/
+
+.swipercard .showname .anime:hover {
+    background-color: #0000008a;
+    color: magenta!important;
+}
+
 .main-night .breadcrumb,
 header.main-night .form-control {
 	color: #f00;
@@ -506,6 +512,121 @@ span.link_name {
 }
 
 @-moz-document domain("allanime2.net") {
+/*History*/
+
+.history-wrapper {
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    width: 100%;
+    max-width: 382px;
+    z-index: 100;
+    background-color: #000000db;
+    text-align: center;
+    padding: 1rem;
+    top: 0.3125rem;
+    color: #f00;
+    border: 2px solid blue;
+    border-top-left-radius: 2rem;
+}
+
+.text-primary {
+    color: #ff0000!important;
+    font-size: 20px;
+}
+
+.history-series-card .type-label-anime, .popular-series-card .type-label-anime {
+    background-color: #25252585;
+    color: magenta;
+}
+}
+
+@-moz-document domain("allanime2.net") {
+/*Watching, Planned, Completed, Help, Dropped*/
+
+button.btn.btn-warning.btn-block.btn-add-status.d-flex.justify-content-around:hover {
+    color: magenta;
+    border: 2px solid;
+    border-radius: 2rem;
+    transition: all .5s;
+    box-shadow: 0px 0px 20px 0px magenta;
+}
+
+button.btn.btn-warning.btn-block.btn-add-status.d-flex.justify-content-around {
+    color: #00ff05;
+    background: #0000005c;
+    border: 2px solid;
+    border-radius: 2rem;
+    transition: all .5s;
+}
+
+button.btn.text-uppercase.dropdown-toggle.text-bold:hover {
+    color: magenta!important;
+    border: 2px solid;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 8px 8px #f600ff!important;
+    font-size: 25px!important;
+}
+
+.dropdown-menu button.btn.text-uppercase.dropdown-toggle.text-bold {
+    border: 2px solid;
+    border-radius: 2rem;
+    margin-bottom: 10px;
+    transition: all .3s;
+}
+
+.dropdown-menu.show {
+    background: #00000087;
+    box-shadow: 0px 0px 20px 0px red;
+    color: red;
+    border: 2px solid;
+    border-radius: 2rem;
+}
+
+.dropdown-menu button.dropdown-item:hover {
+    color: magenta!important;
+    border: 2px solid;
+    border-radius: 2rem;
+    font-size: 22px;
+}
+
+.dropdown-menu button.dropdown-item {
+    background: #000000b5!important;
+    color: red!important;
+    font-size: 19px;
+    border: 2px solid red;
+    border-right: 0;
+    border-left: 0px;
+    border-top: 0px;
+    margin-bottom: 9px;
+    margin-top: -9px;
+    border-radius: 1rem;
+    transition: all .5s;
+}
+}
+
+@-moz-document domain("allanime2.net") {
+/* Save */
+
+button.btn.btn-warning {
+    background: #20202069;
+    color: lime;
+    border: 2px solid;
+    border-radius: 2rem;
+	transition: all .5s;
+}
+
+button.btn.btn-warning:hover {
+    background: #20202069;
+    color: #dc00ff;
+    border: 2px solid;
+    border-radius: 2rem;
+    font-size: 18px;
+    transition: all .5s;
+}
+}
+
+@-moz-document domain("allanime2.net") {
 /*Settings menu*/
 .vm--modal {
 	background: linear-gradient(90deg, #6a000099, #00000080, #00000026, #00000080, #0011ff87);
@@ -855,11 +976,131 @@ i.fa.fas.fa-list:hover {
 
 @-moz-document domain("allanime2.net") {
 /*Anime Info*/
+
+.btn-primary {
+    color: #ff00e0!important;
+    background-color: #325d8800;
+    border-color: #f100ff;
+    transition: all .4s;
+    border: 2px solid;
+}
+
+
+
+button#carouselPv0 {
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 0px;
+}
+
+button#carouselPv1 {
+    border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px
+}
+
+button#carouselPv2 {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 19px;
+}
+
+.swiper-pagination-carousel {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-x: auto;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.swiper-pagination-carousel .pv-indicator.is-active {
+    opacity: 1;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+section.thumbnail-carousel.noselect.hooper {
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+}
+
 .altnames,
 .article-description {
 	line-height: 1.6rem;
 	letter-spacing: .04rem;
 	font-size: 20px;
+}
+
+section.thumbnail-carousel.noselect.hooper {
+    background: #00000094;
+}
+
+a.btn-link-text.btn-outline-dark.m-2.py-1.px-2 {
+    background: #0000007a;
+    border: 2px solid;
+    border-radius: 2rem;
+    color: blue;
+    transition: all .5s;
+}
+
+a.btn-link-text.btn-outline-dark.m-2.py-1.px-2:hover {
+    background: #0000007a;
+    border: 2px solid;
+    border-radius: 2rem;
+    color: magenta;
+    transition: all .5s;
+}
+
+span.badge.badge-primary {
+    background: #00000085;
+    border: 2px solid;
+    border-radius: 1rem;
+    font-size: 16px;
+    color: #00e7ff;
+}
+
+span.badge.badge-dark {
+    background: #00000085;
+    border: 2px solid;
+    border-radius: 1rem;
+    font-size: 16px;
+    color: #ff00f2;
+}
+
+
+button.btn.btn-primary.py-0.ml {
+    background: #00000078;
+    color: blue!important;
+    border-radius: 2rem;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+button.btn.btn-primary.py-0.ml:hover {
+    background: #00000078;
+    color: #ff00fc!important;
+    border-radius: 2rem;
+    font-size: 25px!important;
+    transition: all .5s;
+}
+
+
+.ls-item.btn-link-text.ep-list.d-flex.flex-column.justify-content-center.hover-panel {
+    transition: all .5s;
+}
+
+.cp-notes.my-1 {
+    color: blue;
+    font-size: 18px;
+    background: transparent;
+}
+
+
+.ls-item.btn-link-text.ep-list.d-flex.flex-column.justify-content-center.hover-panel:hover {
+    background: #00000075;
+    box-shadow: 3px 0px 20px 0px magenta;
+    transition: all .5s;
 }
 
 .text-info {
