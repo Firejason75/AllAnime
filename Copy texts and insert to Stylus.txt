@@ -977,6 +977,23 @@ i.fa.fas.fa-list:hover {
 @-moz-document domain("allanime2.net") {
 /*Anime Info*/
 
+button.btn.btn-danger.btn-block.btn-remove-status.d-flex.justify-content-around {
+    color: #ff0000;
+    background: #0000005c;
+    border: 2px solid;
+    border-radius: 2rem;
+    transition: all .5s;
+}
+
+button.btn.btn-danger.btn-block.btn-remove-status.d-flex.justify-content-around:hover {
+    color: #ff0000;
+    background: #0000005c;
+    border: 2px solid;
+    border-radius: 2rem;
+    transition: all .5s;
+	font-size: 18px
+}
+
 .btn-primary {
     color: #ff00e0!important;
     background-color: #325d8800;
