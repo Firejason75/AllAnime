@@ -950,6 +950,11 @@ a.btn.watch-show-btn.anime.text-white.w-100:hover {
     border-radius: inherit;
     margin: 10px;
 }
+
+.alert.alert-danger {
+    background: transparent;
+    color: red;
+}
 }
 
 @-moz-document url-prefix("https://allmanga.to"), url-prefix("https://youtu-chan.com") {
