@@ -873,6 +873,86 @@ button.btn.text-white.bg-secondary
 }
 
 @-moz-document url-prefix("https://allmanga.to"), url-prefix("https://youtu-chan.com") {
+/*Overview*/
+
+.alert.alert-light {
+    background: transparent;
+    color: #00ff00;
+    filter: drop-shadow(2px 4px 6px #00ff00);
+}
+
+.alert.alert-info {
+    background: #11101da3;
+    color: #ff0073;
+}
+
+.alert.alert-info {
+    background: #11101da3;
+    color: #ff0073;
+    border-radius: 14px;
+    filter: drop-shadow(2px 4px 6px #11101da5);
+}
+
+.alert.alert-success {
+    background: transparent;
+    color: #00ff00;
+    filter: drop-shadow(2px 4px 6px #00ff00);
+}
+
+a.text-anime.font-weight-bold {
+    color: blue;
+}
+
+a.text-anime.font-weight-bold:hover {
+    color: magenta;
+}
+
+.badge.badge-secondary.ml-3 {
+    background: transparent;
+    color: yellow;
+}
+
+a.btn.watch-show-btn.anime.text-white.w-100 {
+    background: #00000042;
+    border-color: blue;
+    -webkit-text-fill-color: blue;
+    font-size: medium;
+	transition: all .3s ease 0s;
+}
+
+a.btn.watch-show-btn.anime.text-white.w-100:hover {
+    background: #00000042;
+    border-color: magenta;
+    -webkit-text-fill-color: magenta;
+    font-size: large;
+    transition: all .3s ease 0s;
+    box-shadow: 0 0 9px 2px magenta;
+}
+
+.main-night .card ul.list-group .list-group-item {
+    background: #0000001c;
+    color: #ff0000;
+    border: .1px solid #004aff45;
+    border-radius: 21px;
+    margin: 7px;
+}
+
+.btn.btn-primary {
+    background: transparent;
+    border-color: #004aff45;
+    border-radius: 10px;
+}
+
+.alert.alert-primary.text-center {
+    background: transparent;
+    color: red;
+    box-shadow: 0 0 7px 0px red;
+    border-radius: inherit;
+    margin: 10px;
+}
+}
+
+@-moz-document url-prefix("https://allmanga.to"), url-prefix("https://youtu-chan.com") {
 /*-----------scroll-Seperater-----------*/
 /*"Just a seperater for everything*/
 }
